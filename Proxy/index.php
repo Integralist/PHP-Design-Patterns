@@ -37,7 +37,9 @@
         public function play()
         {
             /**
-             * Notice although the user creates a new `VideoProxy` object we  * don't create a `Video` object until the user actually decides  * they want to play the video.
+             * Notice although the user creates a new `VideoProxy` object we 
+             * don't create a `Video` object until the user actually decides 
+             * they want to play the video.
              */
             if ($this->video === null) {
                 $this->video = new Video($this->title);

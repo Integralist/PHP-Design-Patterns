@@ -23,7 +23,8 @@
         protected function notifyObservers($type)
         {
             /**
-             * If there is a type found in the list of observer types then    * loop through the associated observer objects and trigger notices
+             * If there is a type found in the list of observer types then 
+             * loop through the associated observer objects and trigger notices
              */
             if (!empty($this->observers[$type])) {
                 # Loop each observer within the specified type

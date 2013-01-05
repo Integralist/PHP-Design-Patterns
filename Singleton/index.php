@@ -29,7 +29,8 @@
         public static function getInstance()
         {
             /**
-             * If the property is null then we know that no previous instance * has been created and so we can create a new instance
+             * If the property is null then we know that no previous instance 
+             * has been created and so we can create a new instance
              */
             if (is_null(self::$instance)) {
                 self::$instance = new self;
